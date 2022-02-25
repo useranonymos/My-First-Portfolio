@@ -25,11 +25,11 @@ li{
      display: block;
      transition: background .7s;
 }
-li:hover{
+a:hover{
 
          background-color:#000000;
          font-size: 25px;
-         color: #ffffff;
+         color: #c4c3c3;
 }
 section{
          height: 100vh;
@@ -80,4 +80,8 @@ footer{
      font-size: 35px;
      color: aliceblue;
      padding: 38px;
+}
+a{
+     text-decoration: none;
+     color: #6a6969;
 }
