@@ -15,6 +15,8 @@ body, *{
       padding: 0%;
       box-sizing: border-box;
       font-family: 'Bree Serif', serif;
+}
+li{
 
      text-decoration: none;
      color: #bdbdbd;
@@ -32,7 +34,7 @@ li:hover{
 section{
          height: 100vh;
          width: 100%;
-         background-color: #371e07;
+         background-color: #0093A3;
          display: flex;
          align-items: center;
          justify-content: space-around;
@@ -41,7 +43,7 @@ section{
 .box{
       height: 400px;
       width: 400px;
-      background-color: #3d2719;
+      background-color: #000000;
       border-radius: 50px;
       text-align: center;
       padding-top: 150px;
@@ -71,10 +73,11 @@ section div a{
      text-decoration: none;
 }
 footer{
-     height: 200px;
+     height: 210px;
      width: 100%;
-     background-color: #3f3f3f;
+     background-color: #000000;
      text-align: center;
      font-size: 35px;
      color: aliceblue;
+     padding: 38px;
 }
